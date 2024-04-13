@@ -46,7 +46,7 @@ Example playbook for installing to single user:
 ```yaml
 - hosts: control_hosts
   roles:
-     - { role: xanmanning.helm, helm_version: 3.0.0 }
+     - { role: oxfordmedicalsimulation.helm, helm_version: 3.0.0 }
 ```
 
 Example playbook for installing the latest helm version globally:
@@ -60,7 +60,7 @@ Example playbook for installing the latest helm version globally:
     helm_install_dir: /opt/helm/bin
     helm_projects_dir: /opt/helm/projects
   roles:
-    - role: xanmanning.helm
+    - role: oxfordmedicalsimulation.helm
 ```
 
 ### Note about `helm_projects`
